@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: Plus Jakarta Sans, sans-serif;
+}
+
+body {
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #002995;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-login {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/BACKGROUND-LOGIN-rigth.png);
+}
+
+.left-login>h1 {
+    color: aquamarine;
+}
+
+.right-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002995 url(img/BACKGROUND-LOGIN.jpg) no-repeat right top fixed;
+}
+
+.card-login {
+    width: 335px;
+    height: 100vh;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-login>h2 {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    color: #fff;
+}
+
+.textfield>input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 18px;
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield p{
+    text-align: center;
+}
+
+.textfield a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.textfield>label {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.textfield>input::placeholder {
+    color: #fff;
+}
+
+.btn-login {
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    backdrop-filter: blur(60px);
+    background: #0075FF;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.1s;
+}
+
+.btn-login:hover{
+    transform:scale(1.1);
+}

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"rel="stylesheet">
+    <script src="svg-inject.min.js"></script>
+    <script defer src="app.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <section class="main">
+        <div class="sidebar">
+            <div class="logo"><img src="img/logo.png" onload="SVGInject(this)" /></div>
+            <a class="place0holder-active" href="/login.html"> <img class="icon-img" src="img/icon_home.svg" onload="SVGInject(this)" />Home</a>
+            <a class="place0holder-active" href="/login.html"> <img class="icon-img" src="img/icon_calendar.svg" onload="SVGInject(this)" />Calendário</a>
+            <a class="place0holder-active" href="#"> <img class="icon-img" src="img/icon_cadastro.svg" onload="SVGInject(this)" />Cadastro</a>
+            <a class="place0holder-active" href="#"> <img class="icon-img" src="img/icon_comite.svg" onload="SVGInject(this)" />Comitê Lojista</a>
+            <a class="place0holder-active" href="#"> <img class="icon-img" src="img/icon_pessoas.svg" onload="SVGInject(this)" />Pessoas</a>
+        </div>
+        <div class="content"> <!-----CONTENT----->
+            <div class="titulo-sessao">
+                <div><img class="logo_shopping" src="img/logo_palladium.png" onload="SVGInject(this)" /></div>
+                <div class="dropdown" id="myDropdown">
+                    <button class="dropbtn" onclick="toggleDropdown()">SHOPPING TESTE<img src="img/seta_down.svg"
+                            onload="SVGInject(this)" /></button>
+                    <div class="dropdown-content" onmouseenter="cancelClose()" onmouseleave="closeDropdown()">
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------- LINHA 1 DASHBOARD ------------------>
+
+            <div class="title_dash">
+                <h3><span style="font-weight: 600;">LOJAS </span><span style="font-weight:200;"> - Projetos de Arquitetura</span></h3>
+            </div>
+
+            <div class="box-dash">
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Locadas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Em Análise</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Liberados</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColor">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Liberados c/ Ressalvas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="danger" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorDanger">
+                                        <stop offset="0%" stop-color="#FEB907" />
+                                        <stop bffset="100%" stop-color="#FFD74A" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Não Liberados</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="warning" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorWarning">
+                                        <stop offset="0%" stop-color="#FF5D5D" />
+                                        <stop bffset="100%" stop-color="#FF7448" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div><!-----FIM ID=WARNING----->
+                    </div><!-----FIM DASH-TEXT----->
+                </div><!-----FIM BOX-DASH-INFO----->
+
+
+            </div> <!-----FIM BOX-DASH LINHA 1----->
+
+
+            <!---------------- LINHA 2 DASHBOARD ------------------>
+            
+            <div class="title_dash">
+                <h3><span style="font-weight: bold;">LOJAS</span> - <span style="font-weight: lighter;">Projetos de Arquitetura</span></h3>
+            </div>
+
+            <div class="box-dash">
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div><!-----FIM ID=WARNING----->
+                    </div><!-----FIM DASH-TEXT----->
+                </div><!-----FIM BOX-DASH-INFO----->
+
+
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColor">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="danger" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorDanger">
+                                        <stop offset="0%" stop-color="#FEB907" />
+                                        <stop bffset="100%" stop-color="#FFD74A" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="warning" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorWarning">
+                                        <stop offset="0%" stop-color="#FF5D5D" />
+                                        <stop bffset="100%" stop-color="#FF7448" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div><!-----FIM ID=WARNING----->
+                    </div><!-----FIM DASH-TEXT----->
+                </div><!-----FIM BOX-DASH-INFO----->
+            </div> <!-----FIM DASH LINHA 2----->
+
+
+            
+            <!---------------- LINHA 1 DASHBOARD ------------------>
+
+            <div class="title_dash">
+                <h3><span style="font-weight: bold;">LOJAS </span><span style="font-weight: lighter;"> - Projetos de Arquitetura</span></h3>
+            </div>
+
+            <div class="box-dash">
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Locadas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Em Análise</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Liberados</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColor">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Liberados c/ Ressalvas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="danger" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorDanger">
+                                        <stop offset="0%" stop-color="#FEB907" />
+                                        <stop bffset="100%" stop-color="#FFD74A" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Não Liberados</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="warning" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorWarning">
+                                        <stop offset="0%" stop-color="#FF5D5D" />
+                                        <stop bffset="100%" stop-color="#FF7448" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div><!-----FIM ID=WARNING----->
+                    </div><!-----FIM DASH-TEXT----->
+                </div><!-----FIM BOX-DASH-INFO----->
+
+
+            </div> <!-----FIM BOX-DASH LINHA 1----->
+
+
+            <!---------------- LINHA 2 DASHBOARD ------------------>
+            
+            <div class="title_dash">
+                <h3><span style="font-weight: bold;">LOJAS</span> - <span style="font-weight: lighter;">Projetos de Arquitetura</span></h3>
+            </div>
+
+            <div class="box-dash">
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorSucess">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div><!-----FIM ID=WARNING----->
+                    </div><!-----FIM DASH-TEXT----->
+                </div><!-----FIM BOX-DASH-INFO----->
+
+
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="sucess" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColor">
+                                        <stop offset="0%" stop-color="#05CD99" />
+                                        <stop bffset="100%" stop-color="#05CD99" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="danger" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorDanger">
+                                        <stop offset="0%" stop-color="#FEB907" />
+                                        <stop bffset="100%" stop-color="#FFD74A" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-dash-info">
+                    <div class="dash-text">
+                        <h3>Lojas</h3>
+                        <div class="box-num">
+                            <div class="score">
+                                <p>32</p>
+                            </div>
+                        </div>
+                        <div id="warning" class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmins="http://www.w3.0rg/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CircleColorWarning">
+                                        <stop offset="0%" stop-color="#FF5D5D" />
+                                        <stop bffset="100%" stop-color="#FF7448" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                        </div><!-----FIM ID=WARNING----->
+                    </div><!-----FIM DASH-TEXT----->
+                </div><!-----FIM BOX-DASH-INFO----->
+            </div> <!-----FIM DASH LINHA 2----->
+        </div><!-----FIM CONTENT----->
+    </section>
+
+
+    <script>
+        var dropdownTimeout;
+
+        function toggleDropdown() {
+            var dropdown = document.getElementById("myDropdown");
+            dropdown.classList.toggle("open");
+        }
+
+        function closeDropdown() {
+            dropdownTimeout = setTimeout(function () {
+                var dropdown = document.getElementById("myDropdown");
+                dropdown.classList.remove("open");
+            }, 200);
+        }
+
+        function cancelClose() {
+            clearTimeout(dropdownTimeout);
+        }
+    </script>
+
+
+
+</body>
+
+</html>
